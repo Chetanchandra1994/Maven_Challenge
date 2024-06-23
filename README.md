@@ -98,47 +98,47 @@ Key Measures created as part of the analysis:
 	  DIVIDE(CALCULATE(COUNTROWS(Railway), Railway[Railcard] = "None"), COUNTROWS(Railway))
 
 
-16.	CurrentMonthBooking = 
+16.	# CurrentMonthBooking = 
   	CALCULATE (
   	COUNT('Railway'[Transaction_ID]),
   	DATESMTD('Calendar'[Date]))
 
-17.	CurrentMonthRevenue = 
+17.	£ CurrentMonthRevenue = 
   	CALCULATE (
   	SUM(Railway[Price]),
   	DATESMTD('Calendar'[Date]))
 
-18.	Customer_Gain_Loss = 
+18.	# Customer_Gain_Loss = 
   	[CurrentMonthBooking] - [PreviousMonthBooking]
 
 
-19.	Net Revenue = 
+19.	£ Net Revenue = 
   	[Total Revenue]- [Revenue from Refunds]
 
-20.	PreviousMonthBooking = 
+20.	# PreviousMonthBooking = 
   	CALCULATE(
   	COUNT('Railway'[Transaction_ID]),
   	PREVIOUSMONTH('Calendar'[Date]))
   
 
-21.	PreviousMonthRevenue = 
+21.	£ PreviousMonthRevenue = 
   	CALCULATE(
   	SUM('Railway'[# Revenue]),
   	PREVIOUSMONTH('Calendar'[Date]))
 
 
-22.	Revenue from Refunds = 
+22.	£ Revenue from Refunds = 
   	CALCULATE(SUM(Railway[Price]), FILTER(Railway, Railway[Refund_Request] = "Yes"))
 
 
-23.	Revenue_Gain_Loss = 
+23.	£ Revenue_Gain_Loss = 
   	[CurrentMonthRevenue] - [PreviousMonthRevenue]
 
-24.	Tickets Sold = COUNTROWS('Railway')
+24.	# Tickets Sold = COUNTROWS('Railway')
 
-25.	Total Cost = SUM(Railway[Cost])
+25.	£ Total Cost = SUM(Railway[Cost])
 
-26.	Total Profit = SUM(Railway[Profit])
+26.	£ Total Profit = SUM(Railway[Profit])
 
-27.	Total Revenue = SUM('Railway'[Price])
+27.	£ Total Revenue = SUM('Railway'[Price])
 
