@@ -1,6 +1,6 @@
 #Maven Rail Challenge
 
-Welcome to the Maven Rail Challenge! In this project, I played the role of a BI Developer for National Rail, a company providing business services to passenger train operators in England, Scotland, and Wales. My task was to create an exploratory dashboard to help the management team gain insights into various aspects of their operations.
+Welcome to the Rail Challenge! In this project, I played the role of a BI Developer for National Rail, a company providing business services to passenger train operators in England, Scotland, and Wales. My task was to create an exploratory dashboard to help the management team gain insights into various aspects of their operations.
 
 Dataset contains Mock train ticket data for National Rail in the UK, from Dec 2023 to Apr 2024, including details on the type of ticket, the date & time for each journey, the departure & arrival stations, the ticket price and
 more.
