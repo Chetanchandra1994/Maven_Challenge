@@ -98,7 +98,7 @@ Key Measures created as part of the analysis:
 	  DIVIDE(CALCULATE(COUNTROWS(Railway), Railway[Railcard] = "None"), COUNTROWS(Railway))
 
 
-16.	# CurrentMonthBooking = 
+16.	CurrentMonthBooking = 
   	CALCULATE (
   	COUNT('Railway'[Transaction_ID]),
   	DATESMTD('Calendar'[Date]))
