@@ -79,10 +79,10 @@ The transformation process involved implementing DAX measures and calculated col
 
 The report is structured across four main pages to facilitate comprehensive analysis:
 
-- **Revenue Analysis: Focuses on sales trends, revenue generation, and performance metrics.
-- **Performance Analysis: Provides insights into operational efficiency, route performance, and factors affecting service reliability.
-- **Journey Analysis: Analyzes the best and worst-performing routes based on various metrics, enabling optimization strategies.
-- **Travelers Analysis: Examines traveler demographics, satisfaction levels, and preferences to enhance customer experience and service offerings.
+- Revenue Analysis: Focuses on sales trends, revenue generation, and performance metrics.
+- Performance Analysis: Provides insights into operational efficiency, route performance, and factors affecting service reliability.
+- Journey Analysis: Analyzes the best and worst-performing routes based on various metrics, enabling optimization strategies.
+- Travelers Analysis: Examines traveler demographics, satisfaction levels, and preferences to enhance customer experience and service offerings.
 
 By organizing the report in this manner, key stakeholders gain a holistic view of National Rail's operations, enabling strategic decision-making and continuous improvement efforts.
 
