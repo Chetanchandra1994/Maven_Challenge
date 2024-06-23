@@ -1,6 +1,6 @@
-# Maven Rail Challenge
+# UK Railway Analysis
 
-Welcome to the Maven Rail Challenge! In this project, I played the role of a BI Developer for National Rail, a company providing business services to passenger train operators in England, Scotland, and Wales. My task was to create an exploratory dashboard to help the management team gain insights into various aspects of their operations.
+In this project, I played the role of a BI Developer for National Rail, a company providing business services to passenger train operators in England, Scotland, and Wales. My task was to create an exploratory dashboard to help the management team gain insights into various aspects of their operations.
 
 ## Railway Data Dictionary 
 
@@ -235,3 +235,4 @@ By organizing the report in this manner, key stakeholders gain a holistic view o
 
 
 
+![Example Image]("Home page.png")
