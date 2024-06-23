@@ -29,7 +29,6 @@ Welcome to the Maven Rail Challenge! In this project, I played the role of a BI 
 - **Refund Request**: Whether the passenger requested a refund after a delay or cancellation.
 
 
-
 ## Objectives of the Report
 
 ### 1. Customer Loyalty and Retention Analysis
@@ -53,6 +52,39 @@ Identify and analyze frequent travelers dynamically segmented by the number of j
 Optimize train schedules to minimize delays. To achieve this, you need to analyze the average delay for trains by the hour of the day, considering that delays can vary based on the time of departure.
 
 ### 6. Analysis Based on Revenue, Performance, Journey, and Travelers
+
+Identifying revenue, profit, cost generated, train performance and routes, customer payment methods, services etc 
+
+
+## Data Preparation and Transformation
+
+#### Data Cleaning
+
+The dataset underwent thorough cleaning using Power Query Editor and M code to ensure accuracy and consistency:
+
+- Duplicate columns were removed, invalid characters were corrected, and errors were resolved.
+- Null values were handled meticulously to maintain data integrity.
+- Data types and formats were standardized, including setting date columns to YYYY-MM-DD format and correcting decimal values for uniformity.
+- Sorting and filtering techniques were applied to align the dataset with project requirements, enhancing data usability and relevance.
+
+#### Data Transformation
+
+The transformation process involved implementing DAX measures and calculated columns to derive crucial metrics essential for railway performance analysis:
+
+- Multiple measures were created to quantify revenue, operational efficiency, route performance, and the impact of delays on customer satisfaction.
+- These calculated metrics provided actionable insights into patterns, trends, and areas for improvement within the dataset.
+- Stakeholders were empowered with the ability to make informed decisions based on these insights.
+
+## Report Layout
+
+The report is structured across four main pages to facilitate comprehensive analysis:
+
+- **Revenue Analysis: Focuses on sales trends, revenue generation, and performance metrics.
+- **Performance Analysis: Provides insights into operational efficiency, route performance, and factors affecting service reliability.
+- **Journey Analysis: Analyzes the best and worst-performing routes based on various metrics, enabling optimization strategies.
+- **Travelers Analysis: Examines traveler demographics, satisfaction levels, and preferences to enhance customer experience and service offerings.
+
+By organizing the report in this manner, key stakeholders gain a holistic view of National Rail's operations, enabling strategic decision-making and continuous improvement efforts.
 
 ## Key Measures Created
 
