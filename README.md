@@ -39,35 +39,35 @@ Key Measures created as part of the analysis:
 1.	Most Unsatisfied Customers = 
 	  CALCULATE(COUNTROWS(Railway), FILTER(Railway, Railway[Customer Satisfaction Score] <= -6))
 
-2.	# Refunds = 
+2.	Refunds = 
 	  CALCULATE(COUNTROWS(Railway), FILTER(Railway, Railway[Refund_Request] = "Yes"))
 
-3.	# Satisfied Customers = 
+3.	Satisfied Customers = 
 	  CALCULATE(COUNTROWS(Railway), FILTER(Railway, Railway[Journey_Status] = "On Time"))
 
-4.	# Total no of Trains Cancelled = 
+4.	Total no of Trains Cancelled = 
   	CALCULATE(
   	COUNTROWS(Railway), 
   	Railway[Journey_Status] = "Cancelled")
 
-5.	# Total no of Trains Delayed = 
+5.	Total no of Trains Delayed = 
   	CALCULATE(
   	COUNTROWS('Railway'),
   	'Railway'[Journey_Status] = "Delayed")
 
 
-6.	# Total no of Trains On-Time = 
+6.	Total no of Trains On-Time = 
   	CALCULATE(
   	COUNTROWS(Railway),
   	Railway[Journey_Status] = "On Time")
 
-7.	# Total no. of Journeys/Customers = 
+7.	Total no. of Journeys/Customers = 
   	COUNTROWS(Railway)
 
-8.	# Users with RailCard = 
+8.	Users with RailCard = 
 	  CALCULATE(COUNTROWS(Railway), Railway[Railcard] <> "None")
 
-9.	# Users without RailCard = 
+9.	Users without RailCard = 
 	  CALCULATE(COUNTROWS(Railway), Railway[Railcard] = "None")
 
 10.	% of Trains Delayed = 
@@ -108,14 +108,14 @@ Key Measures created as part of the analysis:
   	SUM(Railway[Price]),
   	DATESMTD('Calendar'[Date]))
 
-18.	# Customer_Gain_Loss = 
+18.	Customer_Gain_Loss = 
   	[CurrentMonthBooking] - [PreviousMonthBooking]
 
 
 19.	£ Net Revenue = 
   	[Total Revenue]- [Revenue from Refunds]
 
-20.	# PreviousMonthBooking = 
+20.	PreviousMonthBooking = 
   	CALCULATE(
   	COUNT('Railway'[Transaction_ID]),
   	PREVIOUSMONTH('Calendar'[Date]))
@@ -134,7 +134,7 @@ Key Measures created as part of the analysis:
 23.	£ Revenue_Gain_Loss = 
   	[CurrentMonthRevenue] - [PreviousMonthRevenue]
 
-24.	# Tickets Sold = COUNTROWS('Railway')
+24.	Tickets Sold = COUNTROWS('Railway')
 
 25.	£ Total Cost = SUM(Railway[Cost])
 
