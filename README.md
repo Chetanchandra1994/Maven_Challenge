@@ -3,8 +3,14 @@
 In this project, I played the role of a BI Developer for National Rail, a company providing business services to passenger train operators in England, Scotland, and Wales. My task was to create an exploratory dashboard to help the management team gain insights into various aspects of their operations.
 
 ![Revenue_Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/629f0829-89f1-43ab-857e-65c13026b5cf)
+
+
 ![Performance_Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/3f0e1734-6533-49ca-a9b2-7294b38f98cd)
+
+
 ![Journey Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/6566a34d-2553-41c1-875f-f7deb417ba3b)
+
+
 ![Travelers Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/a81bfec3-cf2e-461d-b707-19d5c22136f5)
 
 ## Railway Data Dictionary 
