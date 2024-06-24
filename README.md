@@ -249,4 +249,3 @@ By organizing the report in this manner, key stakeholders gain a holistic view o
 
 
 
-![Example Image]("Home page.png")
