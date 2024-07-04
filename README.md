@@ -86,16 +86,19 @@ The report is structured across four main pages to facilitate comprehensive anal
 
 By organizing the report in this manner, key stakeholders gain a holistic view of National Rail's operations, enabling strategic decision-making and continuous improvement efforts.
 
-
+## Revenue_Analysis
 ![Revenue_Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/629f0829-89f1-43ab-857e-65c13026b5cf)
 
 
+## Performance_Analysis
 ![Performance_Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/3f0e1734-6533-49ca-a9b2-7294b38f98cd)
 
 
+## Journey_Analysis
 ![Journey Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/6566a34d-2553-41c1-875f-f7deb417ba3b)
 
 
+## Travelers Analysis
 ![Travelers Analysis](https://github.com/Chetanchandra1994/Maven_Challenge/assets/71788058/a81bfec3-cf2e-461d-b707-19d5c22136f5)
 
 
